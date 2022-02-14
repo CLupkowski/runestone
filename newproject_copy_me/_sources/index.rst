@@ -14,11 +14,22 @@ This Is A New Project
 .. Sources can also be included from subfolders of this directory.
    (e.g. "DataStructures/queues.rst").
 
-SECTION 1: A Random Section
+Table of Contents
 :::::::::::::::::::::::::::
 
 .. toctree::
-   :maxdepth: 2
+   :numbered:
+   :maxdepth: 4
+   GeneralIntro/toctree.rst
+   SimplePythonData/toctree.rst
+   Debugging/toctree.rst
+   PythonModules/toctree.rst
+   PythonTurtle/toctree.rst
+   Sequences/toctree.rst
+   Iteration/toctree.rst
+   Conditionals/toctree.rst
+   Files/toctree.rst
+   Functions/toctree.rst
 
    functions.rst
    DataStructures/queues.rst
