@@ -32,8 +32,8 @@ source_suffix = '.rst'
 master_doc = 'index'
 
 # General information about the project.
-project = u'<ENTER YOUR PROJECT NAME HERE>' # e.g. How To Think Like a Computer Scientist
-copyright = u'<ENTER YOUR COPYRIGHT NOTICE HERE>' # e.g. "2013, Brad Miller and David Ranum"
+project = u'Hitchhikers guide to Computer Science' # e.g. How To Think Like a Computer Scientist
+copyright = u'2022, Celine Latulipe, Lauren Himbeault and Carter Lupkowski. With content taken from Brad Miller\'s Foundations of Python Programming' # e.g. "2013, Brad Miller and David Ranum"
 
 # List of patterns, relative to source directory, that match files and
 # directories to ignore when looking for source files.
@@ -51,7 +51,7 @@ html_theme = 'sphinx_bootstrap'
 # Theme options are theme-specific and customize the look and feel of a theme
 html_theme_options = {
     # Navigation bar title. (Default: ``project`` value)
-    'navbar_title': "<INSERT YOUR PROJECT NAME OR OTHER TITLE HERE>",
+    'navbar_title': "Hitchhikers guide to Computer Science",
 
     # Tab name for entire site. (Default: "Site")
     'navbar_site_name': "Chapters",
@@ -87,10 +87,10 @@ html_theme_path = ["_templates"]
 
 # The name for this set of Sphinx documents.  If None, it defaults to
 # "<project> v<release> documentation".
-html_title = '<INSERT YOUR PROJECT NAME HERE>'
+html_title = 'Hitchhikers guide to Computer Science'
 
 # A shorter title for the navigation bar.  Default is the same as html_title.
-html_short_title ='<INSERT YOUR PROJECT NAME OR OTHER SHORT TITLE HERE>'
+html_short_title ='Hitchhikers guide to Computer Science'
 
 # Logo is currently included as CSS background in default layout file. If you remove
 # it there, you should specify an alternative image here.
