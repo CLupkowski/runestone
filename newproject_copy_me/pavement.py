@@ -9,7 +9,7 @@ from sphinxcontrib import paverutils
 sys.path.append(os.getcwd())
 
 ######## CHANGE THIS ##########
-project_name = "<project_name>"
+project_name = "Hitchhikers guide to Computer Science"
 ###############################
 
 master_url = 'http://127.0.0.1:8000'
