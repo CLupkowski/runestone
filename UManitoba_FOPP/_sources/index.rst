@@ -20,6 +20,7 @@ Table of Contents
 .. toctree::
    :numbered:
    :maxdepth: 4
+
    GeneralIntro/toctree.rst
    SimplePythonData/toctree.rst
    Debugging/toctree.rst
@@ -30,9 +31,7 @@ Table of Contents
    Conditionals/toctree.rst
    Files/toctree.rst
    Functions/toctree.rst
-
-   functions.rst
-   DataStructures/queues.rst
+   MoreAboutIteration/toctree.rst
 
 
 SECTION 2: Another Random Section
@@ -41,7 +40,6 @@ SECTION 2: Another Random Section
 .. toctree::
    :maxdepth: 2
 
-   morecontent.rst
-   words.rst
-   somestuff.rst
-   MoreThings/apples.rst
+   FrontBackMatter/contrib.rst
+   FrontBackMatter/foreward.rst
+   FrontBackMatter/preface.rst

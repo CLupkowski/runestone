@@ -9,7 +9,7 @@ from sphinxcontrib import paverutils
 sys.path.append(os.getcwd())
 
 ######## CHANGE THIS ##########
-project_name = "Hitchhikers guide to Computer Science"
+project_name = "How to Think Like a Computer"
 ###############################
 
 master_url = 'http://127.0.0.1:8000'
@@ -32,7 +32,7 @@ options(
 )
 
 if project_name == "<project_name>":
-  print "Please edit pavement.py and give your project a name"
+  print("Please edit pavement.py and give your project a name")
   exit()
 
 @task
@@ -56,6 +56,6 @@ def build(options):
     if 'masterapp' in options.build:
         options.build.template_args['appname'] = options.build.masterapp
 
-    print 'Building into ', options.build.outdir    
+    print('Building into ', options.build.outdir)    
     paverutils.run_sphinx(options,'build')
 

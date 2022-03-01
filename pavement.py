@@ -1,3 +1,4 @@
+#!/usr/bin/env python2.7
 import paver
 from paver.easy import *
 import paver.setuputils
